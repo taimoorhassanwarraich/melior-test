@@ -1,14 +1,14 @@
 import { Box, Grid } from "@mui/material";
 import React from "react";
 import { Mtext } from "../typography/MText";
-
+import './Card.css'
 export const EventCard = ({ image, children }: any) => {
     return (
       <Grid item xs={12} md={4}>
         <div className="card">
           <Grid container>
             <Grid item xs={12} md={3}>
-            <Box sx={{ height: { xs: 250, md: 151 }, width: "100%" }}>
+            <Box sx={{ height: { xs: 250, md: 155 }, width: "100%" }}>
               <img src={image} alt="" style={{ width: "100%", height: "100%", objectFit: "fill" }} />
             </Box>
             </Grid>

@@ -1,5 +1,5 @@
 interface MtextProps {
-    fontSize?: "16px" | "14px" | "12px" | "20px"|"10px"|"24px"|'36px';
+    fontSize?: "16px" | "14px" | "12px" | "20px"|"10px"|"24px"|'40px';
     fontWeight?: 400 | 600 | 500 | 700 | 900;
     fontColor?: string;
     children: React.ReactNode;

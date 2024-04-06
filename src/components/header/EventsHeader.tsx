@@ -7,7 +7,7 @@ export const EventsHeader = () => {
     <Grid container mt={3} pt={2} sx={{borderTop:'2px solid rgb(150, 147, 147)'}}>
       <Grid item md={8}>
         <Mtext fontSize="16px" fontWeight={600}>
-          Upcomming News
+          Upcomming Events
         </Mtext>
       </Grid>
       <Grid item md={4}>

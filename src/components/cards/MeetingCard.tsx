@@ -5,6 +5,7 @@ import {
   Tooltip,
 } from "@mui/material";
 import React from "react";
+import './Card.css'
 import AccessTimeIcon from "@mui/icons-material/AccessTime";
 import VideocamIcon from "@mui/icons-material/Videocam";
 import { Mtext } from "../typography/MText";
@@ -15,11 +16,11 @@ export const MeetingCard = ({ meeting }:any)  => {
     const { title, tags, startDate, endDate, status, completed } = meeting;
   
     return (
-      <Grid item md={4} xs={12}>
+    <Grid item xl={4} md={6} lg={4} sm={12}  xs={12}>
         <div className="card meeting-card">
           <MeetingCardHeader title={title} tags={tags} />
           <Grid container alignItems={"center"} mt={1}>
-            <Grid item md={3}>
+            <Grid item md={4}>
               <Mtext fontColor="gray" fontSize="12px">
                 Start meeting
               </Mtext>
@@ -33,7 +34,7 @@ export const MeetingCard = ({ meeting }:any)  => {
             <Grid item md={1}>
               <AccessTimeIcon />
             </Grid>
-            <Grid item md={7}>
+            <Grid item md={6}>
               <Mtext fontColor="gray" fontSize="12px">
                 End meeting
               </Mtext>
@@ -44,10 +45,11 @@ export const MeetingCard = ({ meeting }:any)  => {
           </Grid>
           <Box
             display={"flex"}
+            mt={3}
             justifyContent={"space-between"}
             alignItems={"center"}
           >
-            <Box display={"flex"} alignItems={"center"} gap={1}>
+            <Box display={"flex"} alignItems={"center"} gap={1} >
               <BlurOnIcon />
               <Mtext fontSize="12px">{status}</Mtext>
             </Box>

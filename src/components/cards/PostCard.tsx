@@ -2,14 +2,15 @@ import { Box, Grid, Link } from "@mui/material";
 import React from "react";
 import { Mtext } from "../typography/MText";
 import { EmailOutlined, FollowTheSigns } from "@mui/icons-material";
-import profile from "../../assets/profile.jpeg";
+import profile from "../../assets/images/profile.jpeg";
+import './Card.css'
 export const PostCard = () => {
   return (
     <Grid item xs={12} md={4}>
       <div className="card post-card">
         <Box display={"flex"} alignItems={'center'} gap={1} mb={1}>
           <img src={profile} className="avatar" alt="" />
-          <Mtext fontSize="14px" fontColor="gray" fontWeight={600}>
+          <Mtext fontSize="16px" fontColor="gray" fontWeight={600}>
             Jhon Smith
           </Mtext>
         </Box>

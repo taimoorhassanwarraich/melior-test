@@ -7,8 +7,8 @@ export const MeetingCardHeader = ({ title, tags }:any) => {
           <div
             style={{
               height: "60px",
-              background: "red",
-              width: "2px",
+              background: "#FFADC4",
+              width: "3px",
               borderRadius: 5,
             }}
           />

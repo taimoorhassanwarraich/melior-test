@@ -19,47 +19,8 @@
 .relative {
   position: relative;
 }
-.card {
-  background-color: white;
-  border-radius: 10px;
-  overflow: hidden;
-}
-.stats-card {
-  position: relative; 
-  padding: 10px 20px;
-  height: 150px;
-
-}
-
-.circle-icon {
-  position: absolute; 
-  left: 23px;
-  width: 10px;
-  height: 10px;
-  border-radius: 50%;
-  background-color: #AC5A76;
-  top: 7px; 
-}
-
-.stats-icon {
- /* background-color: #AC5A76; */
-  position: absolute; 
-  right: 50px;
-  bottom: -8%; 
-}
-.meeting-card {
-  padding: 10px 20px;
-}
-.meeting-container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-.post-card{
-  padding: 10px 20px;
-}
 .avatar{
-  width: 30px;
-  height: 30px;
+  width: 35px;
+  height: 35px;
   border-radius: 50%;
 }

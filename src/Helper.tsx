@@ -1,7 +1,7 @@
-import person from "./assets/group.png";
-import email from './assets/email.png'
-import card from './assets/credit-card.png'
-import notes from './assets/notes.png'
+import person from "./assets/icons/group.png";
+import email from './assets/icons/email.png'
+import card from './assets/icons/credit-card.png'
+import notes from './assets/icons/notes.png'
 export const stats = [
   {
     title: "Verified Sser",
@@ -15,7 +15,7 @@ export const stats = [
   },
   {
     title: "New Messages",
-    subtitle: "0",
+    subtitle: "3",
     image: `${email}`,
   },
   {
@@ -35,7 +35,7 @@ export const sampleMeetings = [
     completed: false,
   },
   {
-    title: "Meeting 2",
+    title: "RJ-46 R(x)m",
     tags: ["team meeting", "project discussion"],
     startDate: "May 15, 2024",
     endDate: "May 16, 2024",
@@ -43,7 +43,7 @@ export const sampleMeetings = [
     completed: true,
   },
   {
-    title: "Meeting 1",
+    title: "HJ-11 HDESK",
     tags: ["weekly update", "daily update"],
     startDate: "May 13, 2024",
     endDate: "May 14, 2024",
