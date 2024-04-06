@@ -1,7 +1,6 @@
 import {  Box, Chip, Grid } from "@mui/material";
 import "./App.css";
 import { StatsCard } from "./components/cards/StatsCard";
-import { sampleMeetings, stats } from "./Helper";
 import { AdminSection } from "./components/header/AdminSection";
 import { MeetingHeader } from "./components/header/MeetingHeader";
 import { MeetingCard } from "./components/cards/MeetingCard";
@@ -11,8 +10,9 @@ import { Mtext } from "./components/typography/MText";
 import { PostCard } from "./components/cards/PostCard";
 import person from './assets/images/person.jpeg'
 import chair from './assets/images/chair.jpeg'
-import sample from './assets/image001.jpg'
+// import sample from './assets/image001.jpg'
 import { Done } from "@mui/icons-material";
+import { sampleMeetings, stats } from "./helpers/Helper";
 function App() {
   return (
     <>
@@ -46,7 +46,7 @@ function App() {
         </Grid>
       </div>
       </Box>
-      <img src={sample} alt="" />
+      {/* <img src={sample} alt="" /> */}
     </>
   );
 }

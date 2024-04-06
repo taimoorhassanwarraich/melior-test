@@ -6,7 +6,7 @@ import profile from "../../assets/images/profile.jpeg";
 import './Card.css'
 export const PostCard = () => {
   return (
-    <Grid item xs={12} md={4}>
+    <Grid item xs={12 } sm={12} md={12} lg={4} xl={4}>
       <div className="card post-card">
         <Box display={"flex"} alignItems={'center'} gap={1} mb={1}>
           <img src={profile} className="avatar" alt="" />
@@ -15,9 +15,9 @@ export const PostCard = () => {
           </Mtext>
         </Box>
         <Link color={"#000000"} fontSize={"20px"} fontWeight={600}>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit.lores-ssss-sss
         </Link>
-        <Box display={"flex"} gap={1} mt={1} alignItems={"center"}>
+        <Box display={"flex"} gap={1} mt={2} alignItems={"center"}>
           <EmailOutlined fontSize="small" />
           <Mtext fontColor="gray" fontSize="16px">
             125

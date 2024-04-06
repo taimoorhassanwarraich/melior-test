@@ -19,7 +19,7 @@ export const MeetingCard = ({ meeting }:any)  => {
     <Grid item xl={4} md={6} lg={4} sm={12}  xs={12}>
         <div className="card meeting-card">
           <MeetingCardHeader title={title} tags={tags} />
-          <Grid container alignItems={"center"} mt={1}>
+          <Grid container alignItems={"center"} mt={2}>
             <Grid item md={4}>
               <Mtext fontColor="gray" fontSize="12px">
                 Start meeting
@@ -45,7 +45,7 @@ export const MeetingCard = ({ meeting }:any)  => {
           </Grid>
           <Box
             display={"flex"}
-            mt={3}
+            mt={4}
             justifyContent={"space-between"}
             alignItems={"center"}
           >
@@ -61,7 +61,7 @@ export const MeetingCard = ({ meeting }:any)  => {
               <Button
                 variant="contained"
                 sx={{
-                  borderRadius: "5px",
+                  borderRadius: "20px",
                   textTransform: "lowercase",
                   background: completed ? "#8EC5A5" : "#d7b6ab",
                 }}
