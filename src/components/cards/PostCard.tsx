@@ -5,7 +5,7 @@ import { EmailOutlined, FollowTheSigns } from "@mui/icons-material";
 import profile from "../../assets/profile.jpeg";
 export const PostCard = () => {
   return (
-    <Grid item md={4}>
+    <Grid item xs={12} md={4}>
       <div className="card post-card">
         <Box display={"flex"} alignItems={'center'} gap={1} mb={1}>
           <img src={profile} className="avatar" alt="" />

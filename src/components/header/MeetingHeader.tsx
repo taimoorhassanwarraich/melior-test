@@ -9,7 +9,7 @@ export const MeetingHeader = () => {
         <Mtext fontSize="16px" fontWeight={600}>Upcoming Events</Mtext>
       </Grid>
       <Grid item xs={4} md={6} container justifyContent="flex-end">
-        <Button variant="text" sx={{ color: "black", textTransform: "capitalize" }}>
+        <Button variant="text" sx={{ color: "black",fontWeight:600 ,textTransform: "capitalize" }}>
           View all(20)
         </Button>
       </Grid>

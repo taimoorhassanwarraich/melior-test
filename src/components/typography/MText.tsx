@@ -3,17 +3,20 @@ interface MtextProps {
     fontWeight?: 400 | 600 | 500 | 700 | 900;
     fontColor?: string;
     children: React.ReactNode;
+    lineHeight?: number | string;
   }
   
   export const Mtext: React.FC<MtextProps> = ({
     fontSize = "14px",
     fontWeight = 400,
+    lineHeight,
     fontColor = "black",
     children,
   }) => {
     const textStyle: React.CSSProperties = {
       fontSize,
       fontWeight,
+      lineHeight,
       color: fontColor,
     };
   
@@ -23,5 +26,7 @@ interface MtextProps {
       </p>
     );
   };
+
+  
   
   
